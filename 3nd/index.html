@@ -1,0 +1,13 @@
+<!doctype html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="module">
+    import { wholeNameExtended, preparedWholeName, preparedAndLoadedName } from './main.js';
+
+    $('#main0').html(`${wholeNameExtended('John')} <br> ${preparedWholeName} <br> ${preparedAndLoadedName}`);
+</script>
+</head>
+<body>
+    <div id="main0"></div>
+    <div id="main1"></div>
+</body>
